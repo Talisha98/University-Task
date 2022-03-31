@@ -3,19 +3,19 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'testing name', //Will appear in the data.
+			name : 'Black people', //Will appear in the data.
 			title : {
-				media : {word : 'Talisha test media'}, //Name of the category presented in the task.
+				media : {word : 'Black people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -28,13 +28,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-    		    {image : 'dream.jpg'}, 
-      ], 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
+    		    {image : 'https://images.unsplash.com/photo-1524048422800-efeedc940167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'}, 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
